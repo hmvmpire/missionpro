@@ -1,113 +1,172 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import Contact from './_components/contact';
+import Services from './_components/our-services';
+import Testimonials from './_components/testimonials';
+import groupImage from './_assets/group.png';
+import graphImage from './_assets/graph.png';
+import userImage from './_assets/user.png';
+import analysisImage from './_assets/analysis.png';
+import toparrowImage from './_assets/toparrow.png';
+import smileImage from './_assets/smile.png';
+import medalImage from './_assets/medal.png';
+import usersImage from './_assets/users.png';
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className="flex flex-col items-center justify-between">
+      <div
+        style={{ backgroundImage: "url('/hero.png')" }}
+        className="p-10 w-full text-white relative"
+      >
+        <div className="absolute top-0 left-0 bg-black opacity-50 w-full h-full z-0"></div>
+        <div className="relative flex flex-col gap-10 z-30 md:p-10 md:w-1/2">
+          <div className="flex flex-col gap-3 md:gap-5 text-center text-3xl md:text-5xl my-3">
+            <p>Best Business</p>
+            <p>Starts with best</p>
+            <span>
+              <span className="bg-secondary font-semibold p-2">
+                Consultation
+              </span>
+            </span>
+          </div>
+          <p className="text-xs text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
+            ratione, quae, officiis ex mollitia dolorem obcaecati praesentium,
+            minima aperiam soluta laboriosam. Commodi distinctio obcaecati
+            necessitatibus ipsum quam quas id. Unde?
+          </p>
+          <div className="flex justify-center md:justify-start">
+            <button className="bg-white rounded p-3 text-black">
+              Make Appointment
+            </button>
+          </div>
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="w-full md:w-9/12 mx-auto grid md:grid-cols-2">
+        <div className="flex flex-col gap-10 p-10">
+          <h2 className="text-2xl font-semibold">Who We Are</h2>
+          <p className="text-sm leading-8 text-justify text-[#6B6B6B]">
+            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+            turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum dolor
+            sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
+            dictum est a, mattis tellus. Sed sit amet, consectetur adipiscing
+            elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed
+          </p>
+          <div>
+            <button className="bg-primary-grad p-3 rounded text-sm">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div className="p-10 flex items-center">
+          <Image
+            className="w-9/12  mx-auto object-contain"
+            src={groupImage}
+          />
+        </div>
       </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className="w-full md:w-10/12 mx-auto grid gap-10 text-center m-10">
+        <h1 className="font-semibold text-2xl">
+          Creative Solutions For Grown Your <br /> Business
+        </h1>
+        <p className="text-[#6B6B6B] w-10/12 mx-auto">
+          Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+          turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum dolor
+          sit amet, consectetur adipiscing elit. Etia
+        </p>
+        <div className="grid lg:grid-cols-4">
+          <div className="text-center  w-10/12 mx-auto flex flex-col p-4 gap-5 items-center justify-center">
+            <Image src={analysisImage} />
+            <p className="font-semibold">Business Analysis</p>
+            <p className="text-sm leading-7 text-[#6B6B6B]">
+              Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+              turpis molestie, dictum
+            </p>
+          </div>
+          <div className="text-center  w-10/12 mx-auto flex flex-col p-4 gap-2 items-center justify-center">
+            <Image src={analysisImage} />
+            <p className="font-semibold">Marketing Strategy</p>
+            <p className="text-sm leading-7 text-[#6B6B6B]">
+              Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+              turpis molestie, dictum
+            </p>
+          </div>
+          <div className="text-center  w-10/12 mx-auto flex flex-col p-4 gap-2 items-center justify-center">
+            <Image src={userImage} />
+            <p className="font-semibold">User Experience</p>
+            <p className="text-sm leading-7 text-[#6B6B6B]">
+              Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+              turpis molestie, dictum
+            </p>
+          </div>
+          <div className="text-center  w-10/12 mx-auto flex flex-col p-4 gap-2 items-center justify-center">
+            <Image src={graphImage} />
+            <p className="font-semibold">Data Analysis</p>
+            <p className="text-sm leading-7 text-[#6B6B6B]">
+              Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+              turpis molestie, dictum
+            </p>
+          </div>
+        </div>
       </div>
+      <div className="w-full md:w-10/12 mx-auto grid gap-10 text-center m-10">
+        <h1 className="font-semibold text-2xl">How we Grow Your Business</h1>
+        <p className="text-[#6B6B6B] w-10/12 mx-auto">
+          Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+          turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum dolor
+          sit amet, consectetur adipiscing elit. Etia
+        </p>
+      </div>
+      <div
+        className="w-full relative"
+        style={{ backgroundImage: "url('/business-team.png')" }}
+      >
+        <div className="absolute w-full h-full bg-primary-grad top-0 left-0 opacity-80" />
+        <div className="w-11/12 mx-auto grid text-sm md:text-base text-center grid-cols-4 py-10 text-white relative z-10">
+          <div className="mx-auto flex flex-col gap-5  items-center">
+            <Image
+              className="w-8 object-fill"
+              src={toparrowImage}
+            />
+            <p>100+</p>
+            <p>Projects Completed</p>
+          </div>
+          <div className="mx-auto flex flex-col gap-5  items-center">
+            <Image
+              className="w-8 object-fill"
+              src={smileImage}
+            />
+            <p>100+</p>
+            <p>Happy Clients</p>
+          </div>
+          <div className="mx-auto flex flex-col gap-5  items-center">
+            <Image
+              className="w-8 object-fill"
+              src={medalImage}
+            />
+            <p>100+</p>
+            <p>Winning Awards</p>
+          </div>
+          <div className="mx-auto flex flex-col gap-5 items-center">
+            <Image
+              className="w-8 object-fill"
+              src={usersImage}
+            />
+            <p>100+</p>
+            <p>Expert Team Members</p>
+          </div>
+        </div>
+      </div>
+      <Services />
+      <div className="w-full flex md:justify-end justify-center md:w-9/12 mb-5">
+        <Link href='/our-services' className="text-lg text-[#253D91] font-semibold">
+          See All {'-->'}
+        </Link>{' '}
+      </div>
+      <Testimonials />
+      <Contact />
     </main>
-  )
+  );
 }

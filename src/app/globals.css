@@ -1,3 +1,9 @@
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-primary-grad {
+  @apply bg-gradient-to-r from-indigo-900 via-blue-800 to-indigo-900 text-white;
+}

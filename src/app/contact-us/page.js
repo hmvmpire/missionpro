@@ -9,7 +9,7 @@ const ContactUs = () => {
   return (
     <div className="p-10">
       <form action="">
-        <div className="lg:w-8/12 mx-auto border p-10 shadow grid md:grid-cols-2 w-full">
+        <div className="lg:w-8/12 mx-auto border p-10 rounded-lg shadow grid md:grid-cols-2 w-full">
           <div className="flex flex-col gap-10 text-sm md:text-base">
             <input
               className="rounded w-full border p-2"
@@ -47,7 +47,7 @@ const ContactUs = () => {
               cols="30"
               rows="5"
             ></textarea>
-            <div>
+            <div className='md:block flex justify-center'>
               <button className="bg-gradient-to-r from-indigo-900 via-blue-800 to-indigo-900 block p-3 rounded text-white">
                 Get Consultation
               </button>
