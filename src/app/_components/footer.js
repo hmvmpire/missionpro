@@ -1,10 +1,16 @@
 import React from 'react';
-import logo from '../_assets/logo.png';
 
 const Footer = () => {
   return (
-    <div className="w-full bg-[#171A1DF0]">
-      <div className="md:w-10/12 mx-auto gap-10 grid lg:grid-cols-5  text-white p-10">
+    <div
+      className="w-full relative"
+      style={{ backgroundImage: 'url(/footer-bg.png)' }}
+    >
+      <div
+        id="offset"
+        className="absolute top-0 left-0 bg-black opacity-90 w-full h-full"
+      ></div>
+      <div className="md:w-10/12 mx-auto gap-10 grid lg:grid-cols-5  text-white p-10 relative z-10">
         <div className="flex flex-col gap-5 md:col-span-2 w-10/12">
           <img
             src="/logo.png"
@@ -33,6 +39,23 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="font-bold">Social Links</h1>
+          <div className='flex gap-3 mt-8'>
+            <img
+            className='w-5'
+              src="/fb.png"
+              alt=""
+            />
+            <img
+            className='w-5'
+              src="twitter.png"
+              alt=""
+            />
+            <img
+            className='w-5'
+              src="instagram.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>
