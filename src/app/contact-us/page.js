@@ -9,12 +9,12 @@ const ContactUs = () => {
   return (
     <div className="">
       <div
-        style={{ backgroundImage: "url('/hero.png')" }}
+        style={{ backgroundImage: "url('/contact-us.png')" }}
         className="p-10 w-full text-white relative"
       >
         <div className="absolute top-0 left-0 bg-black opacity-50 w-full h-full z-0"></div>
         <div className="relative text-center md:p-10 md:w-1/2">
-          <span className='text-5xl'>Contact Us</span>
+          <span className='text-5xl border-l-4 border-secondary pl-3'>Contact Us</span>
         </div>
       </div>
 

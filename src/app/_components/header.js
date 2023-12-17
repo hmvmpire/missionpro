@@ -35,7 +35,7 @@ const Header = () => {
 
   return (
     <div className="relative bg-gradient-to-r from-indigo-900 via-blue-800 to-indigo-900 p-3 px-10 ">
-      <div className="bg-black opacity-50 w-full h-full absolute top-0 left-0"></div>
+      <div className={`bg-black opacity-50 w-full ${isMobileMenuOpen ? 'h-screen' : 'h-full'}  absolute top-0 left-0`} />
       <div className="z-10 relative flex justify-between text-white font-semibold items-center">
         <Link href={'/'}>
           <img
@@ -72,7 +72,7 @@ const Header = () => {
         {isMobileMenuOpen && (
           <div
             ref={mobileMenuRef}
-            className="lg:hidden absolute top-14 font-normal left-0 right-0 z-[99999] rounded-lg bg-white border text-black  p-4"
+            className="lg:hidden text-center absolute top-20 font-normal left-0 right-0 z-[99999] rounded-lg bg-primary-grad border-2 border-secondary text-black  p-4"
           >
             <div className="flex flex-col gap-4">
               <Link
@@ -81,30 +81,38 @@ const Header = () => {
               >
                 Home
               </Link>
+              <div className='border-secondary border w-1/5 mx-auto' />
               <Link
                 onClick={toggleMobileMenu}
                 href="/about-us"
               >
                 About Us
               </Link>
+              <div className='border-secondary border w-1/5 mx-auto' />
+
               <Link
                 onClick={toggleMobileMenu}
                 href="/our-services"
               >
                 Our Services
               </Link>
+              <div className='border-secondary border w-1/5 mx-auto' />
+
               <Link
                 onClick={toggleMobileMenu}
-                href="/"
+                href="#"
               >
                 News
               </Link>
+              <div className='border-secondary border w-1/5 mx-auto' />
+
               <Link
                 onClick={toggleMobileMenu}
                 href="/contact-us"
               >
                 Contact Us
               </Link>
+
             </div>
           </div>
         )}
@@ -113,7 +121,7 @@ const Header = () => {
           <Link href="/">Home</Link>
           <Link href="/about-us">About Us</Link>
           <Link href="/our-services">Our Services</Link>
-          <Link href="/">News</Link>
+          <Link href="#">News</Link>
           <Link href="/contact-us">Contact Us</Link>
         </div>
 

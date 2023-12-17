@@ -48,7 +48,7 @@ export default function Home() {
 
       <div className="w-full md:w-9/12 mx-auto grid md:grid-cols-2">
         <div className="flex flex-col gap-10 p-10">
-          <h2 className="text-2xl font-semibold">Who We Are</h2>
+          <h2 className="text-2xl font-semibold  border-l-4 border-secondary pl-3">Who We Are</h2>
           <p className="text-sm leading-8 text-justify text-[#6B6B6B]">
             Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
             turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum dolor
