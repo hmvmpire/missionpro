@@ -10,6 +10,8 @@ import toparrowImage from './_assets/toparrow.png';
 import smileImage from './_assets/smile.png';
 import medalImage from './_assets/medal.png';
 import usersImage from './_assets/users.png';
+import vidImage from './_assets/vid.png';
+import discussionImage from './_assets/discussion.png';
 import Link from 'next/link';
 
 export default function Home() {
@@ -67,6 +69,28 @@ export default function Home() {
           />
         </div>
       </div>
+      <div className="w-full relative bg-primary-grad p-10 mt-14">
+        <div className="w-full absolute h-full bg-black opacity-50 top-0 left-0"></div>
+        <div className="grid md:grid-cols-2 relative z-10">
+          <div className="flex justify-center">
+            <Image
+              src={discussionImage}
+              className="mb-10 md:mt-[-6rem] w-1/2"
+            />
+          </div>
+          <div className="md:w-10/12 mx-auto flex flex-col justify-center gap-10">
+            <h2 className="text-2xl font-semibold">Our Experience</h2>
+            <p className="leading-10">
+              Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+              turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum
+              dolor sit amet, consectetur adipiscing elit. Etiam eu turpis
+              molestie, dictum est a, mattis tellus. Sed sit amet, consectetur
+              adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis
+              tellus. Sed
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="w-full md:w-10/12 mx-auto grid gap-10 text-center m-10">
         <h1 className="font-semibold text-2xl">
           Creative Solutions For Grown Your <br /> Business
@@ -111,14 +135,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-full md:w-10/12 mx-auto grid gap-10 text-center m-10">
-        <h1 className="font-semibold text-2xl">How we Grow Your Business</h1>
-        <p className="text-[#6B6B6B] w-10/12 mx-auto">
-          Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-          turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum dolor
-          sit amet, consectetur adipiscing elit. Etia
-        </p>
-      </div>
       <div
         className="w-full relative"
         style={{ backgroundImage: "url('/business-team.png')" }}
@@ -161,9 +177,27 @@ export default function Home() {
       </div>
       <Services />
       <div className="w-full flex md:justify-end justify-center md:w-9/12 mb-5">
-        <Link href='/our-services' className="text-lg text-[#253D91] font-semibold">
+        <Link
+          href="/our-services"
+          className="text-lg text-[#253D91] font-semibold"
+        >
           See All {'-->'}
         </Link>{' '}
+      </div>
+
+      <div className="w-full">
+        <div className="w-full md:w-10/12 mx-auto grid gap-10 text-center m-10">
+          <h1 className="font-semibold text-2xl">How we Grow Your Business</h1>
+          <p className="text-[#6B6B6B] w-10/12 mx-auto">
+            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+            turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum dolor
+            sit amet, consectetur adipiscing elit. Etia
+          </p>
+          <div className="flex justify-center ">
+            <Image src={vidImage} />
+          </div>
+        </div>
+        <div className="bg-primary-grad h-40 mt-[-6rem] "> </div>
       </div>
       <Testimonials />
       <Contact />

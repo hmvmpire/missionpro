@@ -10,6 +10,17 @@ import Image from 'next/image';
 const WhoWeAre = () => {
   return (
     <div>
+
+      <div
+        style={{ backgroundImage: "url('/hero.png')" }}
+        className="p-10 w-full text-white relative"
+      >
+        <div className="absolute top-0 left-0 bg-black opacity-50 w-full h-full z-0"></div>
+        <div className="relative text-center md:p-10 md:w-1/2">
+          <span className='md:text-5xl text-3xl'>Who We Are</span>
+        </div>
+      </div>
+
       <div className="w-full md:w-9/12 mx-auto grid md:grid-cols-2">
         <div className="flex flex-col gap-10 p-10">
           <h2 className="text-2xl font-semibold">About us</h2>
