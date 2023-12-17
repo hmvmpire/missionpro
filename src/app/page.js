@@ -20,7 +20,7 @@ export default function Home() {
         className="p-10 w-full text-white relative"
       >
         <div className="absolute top-0 left-0 bg-black opacity-50 w-full h-full z-0"></div>
-        <div className="relative flex flex-col gap-10 md:text-left text-center z-30 md:p-10 md:w-1/2">
+        <div className="relative flex flex-col gap-10 md:text-left text-center md:p-10 md:w-1/2">
           <div className="flex flex-col gap-3 md:gap-5  text-3xl md:text-5xl my-3">
             <p>Best Business</p>
             <p>Starts with best</p>
