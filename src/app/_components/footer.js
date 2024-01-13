@@ -18,10 +18,7 @@ const Footer = () => {
             className="w-12 mx-auto"
           />
           <p className="text-justify">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
-            corporis doloribus iusto voluptatibus ab? Nobis distinctio, nulla
-            minus eaque deserunt, laborum at debitis tempore, quod provident
-            voluptatem asperiores temporibus quibusdam!
+            Our mission is to help businesses thrive by providing smart solutions. We want to make things easier and better for you, ensuring success and growth in every business we support.
           </p>
         </div>
         <div className="flex flex-col mx-auto text-center md:text-left gap-10">

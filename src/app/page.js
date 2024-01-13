@@ -33,10 +33,9 @@ export default function Home() {
             </span>
           </div>
           <p className="text-xs">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
-            ratione, quae, officiis ex mollitia dolorem obcaecati praesentium,
-            minima aperiam soluta laboriosam. Commodi distinctio obcaecati
-            necessitatibus ipsum quam quas id. Unde?
+            Get the best help for your business by just one click. Ask our
+            counselling experts for guidance, make your business grow and
+            succeed with your unique ideas and innovations.
           </p>
           <div className="flex justify-center md:justify-start">
             <button className="bg-white rounded p-3 text-black">
@@ -48,13 +47,15 @@ export default function Home() {
 
       <div className="w-full md:w-9/12 mx-auto grid md:grid-cols-2">
         <div className="flex flex-col gap-10 p-10">
-          <h2 className="text-2xl font-semibold  border-l-4 border-secondary pl-3">Who We Are</h2>
+          <h2 className="text-2xl font-semibold  border-l-4 border-secondary pl-3">
+            Who We Are
+          </h2>
           <p className="text-sm leading-8 text-justify text-[#6B6B6B]">
-            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
-            dictum est a, mattis tellus. Sed sit amet, consectetur adipiscing
-            elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed
+            Mission pro is your friendly guide and dedicated partner in
+            healthcare business counseling. We specialize in providing strategic
+            guidance and custom-made solutions to pass through the complexities
+            of the medical industry. We empower healthcare enterprises for
+            sustainable growth and excellence with a commitment to your success.
           </p>
           <div>
             <button className="bg-primary-grad p-3 rounded text-sm">
@@ -81,12 +82,13 @@ export default function Home() {
           <div className="md:w-10/12 mx-auto flex flex-col justify-center gap-10">
             <h2 className="text-2xl font-semibold">Our Experience</h2>
             <p className="leading-10">
-              Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum
-              dolor sit amet, consectetur adipiscing elit. Etiam eu turpis
-              molestie, dictum est a, mattis tellus. Sed sit amet, consectetur
-              adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis
-              tellus. Sed
+              Mission pro has been a reliable companion in healthcare business
+              journeys with years of hands-on experience. The deep understanding
+              of our team in the medical industry and its complications,
+              combined with a past performance of successful guidance, ensures
+              that your mission succeed with a noteworthy appearance. Trust us
+              to turn our experience into valuable support for your business
+              success.
             </p>
           </div>
         </div>
@@ -96,41 +98,42 @@ export default function Home() {
           Creative Solutions For Grown Your <br /> Business
         </h1>
         <p className="text-[#6B6B6B] w-10/12 mx-auto">
-          Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-          turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum dolor
-          sit amet, consectetur adipiscing elit. Etia
+          Our creative solutions allow you to go beyond the boundaries and
+          promotes growth that pushes your business enterprise to exceptional
+          heights in the developing world of success.
         </p>
         <div className="grid lg:grid-cols-4">
           <div className="text-center  w-10/12 mx-auto flex flex-col p-4 gap-5 items-center justify-center">
             <Image src={analysisImage} />
             <p className="font-semibold">Business Analysis</p>
             <p className="text-sm leading-7 text-[#6B6B6B]">
-              Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum
+              Exploring insightful perspectives to understand the business
+              deeply and covering the way for creative growth solutions.
             </p>
           </div>
           <div className="text-center  w-10/12 mx-auto flex flex-col p-4 gap-2 items-center justify-center">
             <Image src={analysisImage} />
             <p className="font-semibold">Marketing Strategy</p>
             <p className="text-sm leading-7 text-[#6B6B6B]">
-              Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum
+              Crafting innovative plans to boost the business and blending it
+              with creativity to raise the standards in market.
             </p>
           </div>
           <div className="text-center  w-10/12 mx-auto flex flex-col p-4 gap-2 items-center justify-center">
             <Image src={userImage} />
             <p className="font-semibold">User Experience</p>
             <p className="text-sm leading-7 text-[#6B6B6B]">
-              Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum
+              Designing appealing interactions and prioritizing user
+              satisfaction to create a memorable and pleasing experience for
+              business growth.
             </p>
           </div>
           <div className="text-center  w-10/12 mx-auto flex flex-col p-4 gap-2 items-center justify-center">
             <Image src={graphImage} />
             <p className="font-semibold">Data Analysis</p>
             <p className="text-sm leading-7 text-[#6B6B6B]">
-              Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum
+              Abstracting valuable visions creatively by using data analytics to
+              inform strategic decisions for sustainable business development.
             </p>
           </div>
         </div>
@@ -189,9 +192,9 @@ export default function Home() {
         <div className="w-full md:w-10/12 mx-auto grid gap-10 text-center m-10">
           <h1 className="font-semibold text-2xl">How we Grow Your Business</h1>
           <p className="text-[#6B6B6B] w-10/12 mx-auto">
-            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Etia
+            We propel your business through intentional solutions, by maximum
+            profitable ideas and effective management that promotes remarkable
+            success in a dynamic business environment.
           </p>
           <div className="flex justify-center ">
             <Image src={vidImage} />
