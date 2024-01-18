@@ -24,22 +24,13 @@ const WhoWeAre = () => {
         <div className="flex flex-col gap-10 p-10">
           <h2 className="text-2xl font-semibold border-l-4 border-secondary pl-3">About us</h2>
           <p className="text-sm text-justify text-[#6B6B6B]">
-            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
-            dictum est a, mattis tellus. Sed
+            Welcome to our Healthcare Business Counseling! We're here to help doctors, clinics, and healthcare professionals succeed. Our team is like your friendly guide which makes the complicated healthcare world easier for you. Consider us as your partners and not just advisors.
           </p>
           <p className="text-sm text-justify text-[#6B6B6B]">
-            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
-            dictum est a, mattis tellus. Sed
+            We help you with smart plans and follow all the important rules. Whether you are just starting or already have a healthcare business, we are here for you to make you prominent in marketplace.
           </p>
           <p className="text-sm text-justify text-[#6B6B6B]">
-            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
-            dictum est a, mattis tellus. Sed
+            From making good plans to following the important rules, we are your support team. Count on us to make your healthcare business better and stand out. Your success is super important to us!
           </p>
         </div>
         <div className="p-10 flex items-center">
@@ -61,22 +52,13 @@ const WhoWeAre = () => {
           <div className="flex flex-col gap-10 z-10 relative  px-10">
             <h2 className="text-2xl font-semibold border-l-4 border-secondary pl-3">Our Mission</h2>
             <p className="text-sm text-justify">
-              Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum
-              dolor sit amet, consectetur adipiscing elit. Etiam eu turpis
-              molestie, dictum est a, mattis tellus. Sed
+              Our mission is clear: to improve healthcare businesses and make a positive impact. We are here to guide healthcare professionals like you and make sure that your journey in the healthcare field is smoother and more successful.
             </p>
             <p className="text-sm text-justify">
-              Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum
-              dolor sit amet, consectetur adipiscing elit. Etiam eu turpis
-              molestie, dictum est a, mattis tellus. Sed
+              Our mission is to simplify the complicated aspects of the industry by offering support and knowledge to help you pass through the difficult challenges. We focus on providing practical advice and solutions, from strategic planning to submission which promotes a community where everyone can grow well.
             </p>
             <p className="text-sm text-justify">
-              Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum
-              dolor sit amet, consectetur adipiscing elit. Etiam eu turpis
-              molestie, dictum est a, mattis tellus. Sed
+              By working together, our purpose is to elevate healthcare practices and support the highest standards, and contribute to healthcare that prioritizes excellence.
             </p>
           </div>
         </div>
@@ -85,22 +67,13 @@ const WhoWeAre = () => {
         <div className="flex flex-col gap-10 p-10">
           <h2 className="text-2xl font-semibold border-l-4 border-secondary pl-3">Our Vision</h2>
           <p className="text-sm text-justify text-[#6B6B6B]">
-            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
-            dictum est a, mattis tellus. Sed
+            Our vision as healthcare business counselor is to see a future where healthcare businesses work for the betterment of humanity. We want to be the ones who help make positive changes happen. Our dream for every healthcare professional is to feel confident and supported.
           </p>
           <p className="text-sm text-justify text-[#6B6B6B]">
-            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
-            dictum est a, mattis tellus. Sed
+            We imagine a world where good plans, new ideas, and doing the right thing all come together. We want healthcare businesses to be known for being excellent.
           </p>
           <p className="text-sm text-justify text-[#6B6B6B]">
-            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed Vorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
-            dictum est a, mattis tellus. Sed
+            By working together and supporting each other, we want to help create a healthcare world that is easy to access, high-quality, and always getting better. Our vision is to be the helpful guide that pushes healthcare businesses to succeed and make communities healthier.
           </p>
         </div>
         <div className="p-10 flex items-center">
