@@ -39,9 +39,9 @@ const servicelist = [
     icon: healthIcon,
   },
   {
-    title: 'Hospital Setup',
+    title: 'Cosmetics Center Setup',
     description:
-      'Comprehensive support for establishing healthcare facilities, from planning and design to operational setup, ensuring unified functionality.',
+      'Comprehensive support for establishing cosmetic facilities, from planning and design to operational setup, ensuring unified functionality.',
     icon: hospitalIcon,
   },
 ];
