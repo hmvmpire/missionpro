@@ -48,14 +48,18 @@ export default function Home() {
       <div className="w-full md:w-9/12 mx-auto grid md:grid-cols-2">
         <div className="flex flex-col gap-10 p-10">
           <h2 className="text-2xl font-semibold  border-l-4 border-secondary pl-3">
-            Who We Are
+            About Us
           </h2>
           <p className="text-sm leading-8 text-justify text-[#6B6B6B]">
-            Mission pro is your friendly guide and dedicated partner in
-            healthcare business counseling. We specialize in providing strategic
-            guidance and custom-made solutions to pass through the complexities
-            of the medical industry. We empower healthcare enterprises for
-            sustainable growth and excellence with a commitment to your success.
+            Mission Pro is your trusted companion and expert advisor in the
+            field of cosmetic clinic consultancy. Our focus is on delivering
+            tailored guidance and specialized solutions to navigate the
+            intricacies of the beauty and aesthetics industry. We are dedicated
+            to empowering cosmetic clinics for enduring success and excellence,
+            providing strategic insights that foster sustainable growth. With a
+            steadfast commitment to your prosperity, Mission Pro is here to
+            guide you through the unique challenges and opportunities in the
+            dynamic world of cosmetic healthcare.
           </p>
           <div>
             <button className="bg-primary-grad p-3 rounded text-sm">

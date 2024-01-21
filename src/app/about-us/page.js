@@ -16,7 +16,7 @@ const WhoWeAre = () => {
       >
         <div className="absolute top-0 left-0 bg-black opacity-50 w-full h-full z-0"></div>
         <div className="relative text-center md:p-10 md:w-1/2">
-          <span className='md:text-5xl border-l-4 border-secondary pl-3 text-3xl'>Who We Are</span>
+          <span className='md:text-5xl border-l-4 border-secondary pl-3 text-3xl'>About Us</span>
         </div>
       </div>
 
@@ -27,10 +27,10 @@ const WhoWeAre = () => {
             Welcome to our Healthcare Business Counseling! We're here to help doctors, clinics, and healthcare professionals succeed. Our team is like your friendly guide which makes the complicated healthcare world easier for you. Consider us as your partners and not just advisors.
           </p>
           <p className="text-sm text-justify text-[#6B6B6B]">
-            We help you with smart plans and follow all the important rules. Whether you are just starting or already have a healthcare business, we are here for you to make you prominent in marketplace.
+            We help you with smart plans and follow all the important rules. Whether you are just starting or already have a cosmetics clinic investment, we are here for you to make you prominent in marketplace.
           </p>
           <p className="text-sm text-justify text-[#6B6B6B]">
-            From making good plans to following the important rules, we are your support team. Count on us to make your healthcare business better and stand out. Your success is super important to us!
+            From making good plans to following the important rules, we are your support team. Count on us to make your cosmetics clinic investment better and stand out. Your success is super important to us!
           </p>
         </div>
         <div className="p-10 flex items-center">
