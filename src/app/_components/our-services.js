@@ -9,11 +9,12 @@ import projectIcon from '../_assets/project.png';
 
 const servicelist = [
   {
-    title: 'Design & Construction',
+    title: 'Cosmetics Center Setup',
     description:
-      'Modern design and construction services make sure functional and artistically pleasing spaces for your projects.',
-    icon: designIcon,
+      'Comprehensive support for establishing cosmetic facilities, from planning and design to operational setup, ensuring unified functionality.',
+    icon: hospitalIcon,
   },
+  
   {
     title: 'Market Feasibility',
     description:
@@ -39,11 +40,12 @@ const servicelist = [
     icon: healthIcon,
   },
   {
-    title: 'Cosmetics Center Setup',
+    title: 'Design & Construction',
     description:
-      'Comprehensive support for establishing cosmetic facilities, from planning and design to operational setup, ensuring unified functionality.',
-    icon: hospitalIcon,
+      'Modern design and construction services make sure functional and artistically pleasing spaces for your projects.',
+    icon: designIcon,
   },
+  
 ];
 
 const Services = () => {
