@@ -6,28 +6,28 @@ import jenny from '../_assets/jenny.png';
 
 const testimonials = [
   {
-    name: 'John Smith',
-    comment: 'FH Solutions has been a lifesaver for me. I was facing complex debt collection issues, and their team handled it with utmost professionalism. They truly live up to their promise of quick and smooth solutions.',
+    name: "Alice Turner",
+    comment: "Working with the healthcare business counseling team has been a game-changer for my clinic. They truly are our partners, not just advisors. Their smart plans and unwavering support have made my cosmetics clinic investment stand out in the marketplace. Grateful to have them as our friendly guide!",
   },
   {
-    name: 'Emily Davis',
-    comment: "I had the pleasure of working with FH Solutions for my company's establishment.Their deep knowledge of UAE laws and expertise in tax and financial matters made the process seamless.Highly recommended!",
+    name: "Dr. James Mitchell",
+    comment: "As a healthcare professional, I appreciate the dedicated support provided by the counseling team. They go beyond advising; they are our support team in making good plans and ensuring we follow the important rules. Their commitment to our success is evident, making our journey smoother in the complicated healthcare world.",
   },
   {
-    name: 'Ahmed Khalid',
-    comment: 'FH Solutions has an exceptional team of debt collection experts. Their proven track record in debt collection cases is a testament to their skills and commitment to success. Thank you for your outstanding service!',
+    name: "Emily Rodriguez",
+    comment: "The healthcare business counseling team has been instrumental in improving my healthcare business. Their practical advice and solutions have helped me navigate challenges, from strategic planning to submission. Proud to be a part of a community that values excellence and growth. Thank you for being the guiding force in my success.",
   },
   {
-    name: 'Sarah Johnson',
-    comment: 'When it comes to compliance, contract drafting, and tax issues, FH Solutions is the go-to partner. Their consultations are top-notch, covering every aspect of business setup. I am grateful for their invaluable support.',
+    name: "Dr. Sofia Patel",
+    comment: "The mission of the healthcare business counseling team aligns perfectly with my vision for a successful healthcare practice. Their focus on positive impact and simplifying industry complexities has elevated my practice. I feel confident and supported, knowing that they are working towards a healthcare world that prioritizes excellence and growth.",
   },
   {
-    name: 'Hassan Ali',
-    comment: 'The legal advice and solutions provided by FH Solutions have been instrumental in safeguarding our interests. From organizational structure to mergers and acquisitions, they cover it all with expertise. Don’t wait, consult them now!',
+    name: "Mark Thompson",
+    comment: "I have witnessed positive changes in my healthcare business since partnering with the counseling team. Their mission to support the highest standards resonates well with my goals. Together, we are creating a healthcare world that is easy to access, high-quality, and always improving. Proud to be associated with a team that pushes us to succeed.",
   },
   {
-    name: 'Linda Wilson',
-    comment: 'FH Solutions has been our legal shield of experience, protecting our rights and interests. Their commitment to preventing legal problems is unparalleled. Trustworthy, professional, and highly recommended!',
+    name: "Dr. Maria Gonzalez",
+    comment: "The vision of the healthcare business counseling team is inspiring. They are not just counselors; they are the helpful guides pushing healthcare businesses to succeed. Their dream of a healthcare world known for excellence aligns with my aspirations. Grateful for their continuous support in making communities healthier and practices successful.",
   },
 ];
 
