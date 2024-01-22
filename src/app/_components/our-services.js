@@ -54,8 +54,8 @@ const Services = () => {
         Discover a range of services modified to your requirements with guaranteed excellence and novelty. From detailed analysis to creative strategies, we deliver comprehensive solutions for your unique business needs.
       </p>
       <div className="w-10/12 mx-auto grid lg:grid-cols-3 md:grid-cols-2 md:gap-20 gap-10">
-        {servicelist.map((service) => (
-          <div className="border px-10 border-secondary p-5 flex flex-col gap-8 items-center shadow-lg">
+        {servicelist.map((service, i) => (
+          <div key={i} className="border px-10 border-secondary p-5 flex flex-col gap-8 items-center shadow-lg">
             <Image
               className="w-10"
               src={service.icon}

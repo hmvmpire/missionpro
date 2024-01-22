@@ -4,6 +4,33 @@ import React from 'react';
 import Slider from 'react-slick';
 import jenny from '../_assets/jenny.png';
 
+const testimonials = [
+  {
+    name: 'John Smith',
+    comment: 'FH Solutions has been a lifesaver for me. I was facing complex debt collection issues, and their team handled it with utmost professionalism. They truly live up to their promise of quick and smooth solutions.',
+  },
+  {
+    name: 'Emily Davis',
+    comment: "I had the pleasure of working with FH Solutions for my company's establishment.Their deep knowledge of UAE laws and expertise in tax and financial matters made the process seamless.Highly recommended!",
+  },
+  {
+    name: 'Ahmed Khalid',
+    comment: 'FH Solutions has an exceptional team of debt collection experts. Their proven track record in debt collection cases is a testament to their skills and commitment to success. Thank you for your outstanding service!',
+  },
+  {
+    name: 'Sarah Johnson',
+    comment: 'When it comes to compliance, contract drafting, and tax issues, FH Solutions is the go-to partner. Their consultations are top-notch, covering every aspect of business setup. I am grateful for their invaluable support.',
+  },
+  {
+    name: 'Hassan Ali',
+    comment: 'The legal advice and solutions provided by FH Solutions have been instrumental in safeguarding our interests. From organizational structure to mergers and acquisitions, they cover it all with expertise. Don’t wait, consult them now!',
+  },
+  {
+    name: 'Linda Wilson',
+    comment: 'FH Solutions has been our legal shield of experience, protecting our rights and interests. Their commitment to preventing legal problems is unparalleled. Trustworthy, professional, and highly recommended!',
+  },
+];
+
 const Testimonials = () => {
   const settings = {
     dots: true,
@@ -18,7 +45,7 @@ const Testimonials = () => {
         style={{
           background: i === 0 ? '#153D6C' : '#DDD',
         }}
-      ></div>
+      />
     ),
     responsive: [
       {
@@ -53,76 +80,26 @@ const Testimonials = () => {
         Clients Testimonials
       </h2>
       <Slider {...settings}>
-        <div className="p-10 flex flex-col">
-          <div className="flex items-center gap-3 my-5">
-            <Image
-              alt=''
-              src={jenny}
-              className="rounded-full"
-            />
-            <span>Jenny</span>
-          </div>
-          <p className="text-sm text-[#6B6B6B]">
-            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed
-          </p>
-        </div>
-        <div className="p-10 flex flex-col">
-          <div className="flex items-center gap-3 my-5">
-            <Image
-              alt=''
-              src={jenny}
-              className="rounded-full"
-            />
-            <span>James</span>
-          </div>
-          <p className="text-sm text-[#6B6B6B]">
-            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed
-          </p>
-        </div>
-        <div className="p-10 flex flex-col">
-          <div className="flex items-center gap-3 my-5">
-            <Image
-              alt=''
-              src={jenny}
-              className="rounded-full"
-            />
-            <span>Loren</span>
-          </div>
-          <p className="text-sm text-[#6B6B6B]">
-            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed
-          </p>
-        </div>
-        <div className="p-10 flex flex-col">
-          <div className="flex items-center gap-3 my-5">
-            <Image
-              alt=''
-              src={jenny}
-              className="rounded-full"
-            />
-            <span>Jenny</span>
-          </div>
-          <p className="text-sm text-[#6B6B6B]">
-            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed
-          </p>
-        </div>
-        <div className="p-10 flex flex-col">
-          <div className="flex items-center gap-3 my-5">
-            <Image
-              alt=''
-              src={jenny}
-              className="rounded-full"
-            />
-            <span>Jenny</span>
-          </div>
-          <p className="text-sm text-[#6B6B6B]">
-            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed
-          </p>
-        </div>
+        {
+          testimonials.map((item, i) => (
+            <div key={i} className="p-10 flex flex-col">
+              <div className="flex items-center gap-3 my-5">
+                <Image
+                  alt=''
+                  width={50}
+                  height={50}
+                  src='/avatar.jpeg'
+                  className="rounded-full"
+                />
+                <span>{item.name}</span>
+              </div>
+              <p className="text-sm text-[#6B6B6B]">
+                {item.comment}
+              </p>
+            </div>
+          ))
+        }
+
       </Slider>
     </div>
   );

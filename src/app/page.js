@@ -1,7 +1,4 @@
 import Image from 'next/image';
-import Contact from './_components/contact';
-import Services from './_components/our-services';
-import Testimonials from './_components/testimonials';
 import groupImage from './_assets/group.png';
 import graphImage from './_assets/graph.png';
 import userImage from './_assets/user.png';
@@ -13,6 +10,17 @@ import usersImage from './_assets/users.png';
 import vidImage from './_assets/vid.png';
 import discussionImage from './_assets/discussion.png';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
+
+const Services = dynamic(() => import('./_components/our-services'), {
+  ssr: false,
+})
+const Contact = dynamic(() => import('./_components/contact'), {
+  ssr: false,
+})
+const Testimonials = dynamic(() => import('./_components/testimonials'), {
+  ssr: false,
+})
 
 export default function Home() {
   return (

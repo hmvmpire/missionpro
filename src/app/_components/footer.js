@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
@@ -23,9 +24,9 @@ const Footer = () => {
         </div>
         <div className="flex flex-col mx-auto text-center md:text-left gap-10">
           <h1 className="font-bold">Our Address</h1>
-          <p>Example adress</p>
-          <p>025658768</p>
-          <p>info@fhslawfirm.com</p>
+          <p>Abu Dhabi - UAE</p>
+          <Link href="tel:+971 56 895 1528">+971 56 895 1528</Link>
+          <Link href="mailto:ibtissam@missionpro.ae">ibtissam@missionpro.ae</Link>
         </div>
         <div className="flex flex-col mx-auto text-center md:text-left gap-10">
           <h1 className="font-bold">Quick Links</h1>
@@ -52,6 +53,17 @@ const Footer = () => {
               src="instagram.png"
               alt=""
             />
+          </div>
+          <div className="fixed bottom-10 right-10 rounded-full cursor-pointer">
+            {/* Replace the link with your actual WhatsApp link */}
+            <a href="https://wa.me/+971568951528" target="_blank" rel="noopener noreferrer">
+              <img
+
+                src="/whatsapp.png"
+                alt="WhatsApp Icon"
+                className="w-14 h-14"
+              />
+            </a>
           </div>
         </div>
       </div>
