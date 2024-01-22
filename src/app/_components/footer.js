@@ -30,10 +30,10 @@ const Footer = () => {
         </div>
         <div className="flex flex-col mx-auto text-center md:text-left gap-10">
           <h1 className="font-bold">Quick Links</h1>
-          <p> <Link href={'/'}></Link> Home</p>
-          <p><Link href={'/about-us'}></Link>About</p>
-          <p><Link href={'/our-services'}></Link>Services</p>
-          <p><Link href={'/contact-us'}></Link>Contact</p>
+          <p className='cursor'> <Link href='/'>Home</Link> </p>
+          <p className='cursor'><Link href='/about-us'>About</Link></p>
+          <p className='cursor'><Link href='/our-services'>Services</Link></p>
+          <p className='cursor'><Link href={'/contact-us'}>Contact</Link></p>
         </div>
         <div className=" mx-auto">
           <h1 className="font-bold">Social Links</h1>
