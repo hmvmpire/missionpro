@@ -3,6 +3,7 @@ import callIcon from '../_assets/call.png';
 import mailIcon from '../_assets/mail.png';
 import timeIcon from '../_assets/time.png';
 import locationIcon from '../_assets/location.png';
+import Link from 'next/link';
 import Image from 'next/image';
 
 const ContactUs = () => {
@@ -69,21 +70,21 @@ const ContactUs = () => {
                 src={callIcon}
                 alt=""
               />
-              <span>13449268518986</span>
+              <span><Link href="tel:+971 56 895 1528">+971 56 895 1528</Link></span>
             </span>
             <span className="flex gap-3 w-full items-center">
               <Image
                 src={locationIcon}
                 alt=""
               />
-              <span>Example 1234</span>
+              <span>Abu Dhabi - UAE</span>
             </span>
             <span className="flex gap-3 w-full items-center">
               <Image
                 src={mailIcon}
                 alt=""
               />
-              <span>Example emal</span>
+              <span><Link href="mailto:ibtissam@missionpro.ae">info@missionpro.ae</Link></span>
             </span>
             <span className="flex gap-3 w-full items-center">
               <Image
@@ -91,6 +92,7 @@ const ContactUs = () => {
                 alt=""
               />
               <span>Working Hours</span>
+              <span>09:00 AM to 06:00 PM</span>
             </span>
           </div>
         </div>

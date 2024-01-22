@@ -96,14 +96,9 @@ const Header = () => {
               >
                 Our Services
               </Link>
-              <div className='border-secondary border w-1/5 mx-auto' />
+            
 
-              <Link
-                onClick={toggleMobileMenu}
-                href="#"
-              >
-                News
-              </Link>
+             
               <div className='border-secondary border w-1/5 mx-auto' />
 
               <Link
@@ -121,7 +116,7 @@ const Header = () => {
           <Link href="/">Home</Link>
           <Link href="/about-us">About Us</Link>
           <Link href="/our-services">Our Services</Link>
-          <Link href="#">News</Link>
+         
           <Link href="/contact-us">Contact Us</Link>
         </div>
 
