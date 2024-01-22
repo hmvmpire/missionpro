@@ -121,7 +121,7 @@ const Header = () => {
         </div>
 
         <button className="hidden lg:flex bg-none border border-white rounded p-2 text-xs md:text-base">
-          Make Appointment
+        <a href="https://wa.me/+971568951528" target="_blank">Make Appointment</a>  
         </button>
       </div>
     </div>

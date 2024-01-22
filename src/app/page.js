@@ -47,7 +47,7 @@ export default function Home() {
           </p>
           <div className="flex justify-center md:justify-start">
             <button className="bg-white rounded p-3 text-black">
-              Make Appointment
+             <a href="https://wa.me/+971568951528" target="_blank">Make Appointment</a>  
             </button>
           </div>
         </div>
