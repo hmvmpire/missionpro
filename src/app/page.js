@@ -150,46 +150,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div
-        className="w-full relative"
-        style={{ backgroundImage: "url('/business-team.png')" }}
-      >
-        <div className="absolute w-full h-full bg-primary-grad top-0 left-0 opacity-80" />
-        <div className="w-11/12 mx-auto grid text-sm md:text-base text-center grid-cols-4 py-10 text-white relative z-10">
-          <div className="mx-auto flex flex-col gap-5  items-center">
-            <Image
-              className="w-8 object-fill"
-              src={toparrowImage}
-            />
-            <p>100+</p>
-            <p>Projects Completed</p>
-          </div>
-          <div className="mx-auto flex flex-col gap-5  items-center">
-            <Image
-              className="w-8 object-fill"
-              src={smileImage}
-            />
-            <p>100+</p>
-            <p>Happy Clients</p>
-          </div>
-          <div className="mx-auto flex flex-col gap-5  items-center">
-            <Image
-              className="w-8 object-fill"
-              src={medalImage}
-            />
-            <p>100+</p>
-            <p>Winning Awards</p>
-          </div>
-          <div className="mx-auto flex flex-col gap-5 items-center">
-            <Image
-              className="w-8 object-fill"
-              src={usersImage}
-            />
-            <p>100+</p>
-            <p>Expert Team Members</p>
-          </div>
-        </div>
-      </div>
       <Services />
       <div className="w-full flex md:justify-end justify-center md:w-9/12 mb-5">
         <Link
