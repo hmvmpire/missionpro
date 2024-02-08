@@ -26,7 +26,7 @@ const Footer = () => {
           <h1 className="font-bold">Our Address</h1>
           <p>Abu Dhabi - UAE</p>
           <Link href="tel:+971 56 895 1528">+971 56 895 1528</Link>
-          <Link href="mailto:ibtissam@missionpro.ae">ibtissam@missionpro.ae</Link>
+          <Link href="mailto:info@missionpro.ae">info@missionpro.ae</Link>
         </div>
         <div className="flex flex-col mx-auto text-center md:text-left gap-10">
           <h1 className="font-bold">Quick Links</h1>
